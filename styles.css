@@ -1,0 +1,229 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  border: 2px solid #e9e9e9;
+  width: 500px;
+  height: 1000px;
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.inner-container {
+  margin: 10px 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.safety-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.safety-image-container {
+  width: 75px;
+  height: 25px;
+}
+
+.safety-image-border {
+  border: 2px solid #29dbe8;
+}
+
+.safety-desc {
+  width: 77%;
+  color: #8b8b8b;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 22px;
+  color: #1c1c1c;
+}
+
+.caption {
+  color: #8b8b8b;
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.divider {
+  color: #f5f5f5;
+}
+
+.food-image-container {
+  height: 60%;
+  position: relative;
+}
+
+.promoted {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  background: #996e7c;
+  color: #c6bbbf;
+  padding: 2px 8px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.offer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 5px;
+  background: #266fef;
+  color: #fefeff;
+  padding: 2px 8px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.delivery-time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+  background: rgb(247, 249, 249);
+  color: #474747;
+  padding: 2px 8px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.bali-container {
+  border: 2px solid #e9e9e9;
+  width: 800px;
+  height: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bali-content {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: 30% auto 5%;
+  color: white;
+}
+
+.bali-heading {
+  font-size: 25px;
+  font-weight: 750;
+}
+
+.bali-desc {
+  margin: 20px;
+  font-weight: 450;
+}
+
+.bali-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.zomato-container {
+  border: 2px solid #e9e9e9;
+  width: 800px;
+  height: 300px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.zomato-content {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: 50% 10% 10% 30%;
+}
+
+.zomato-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.zomato-desc {
+  font-size: 18px;
+  font-weight: 450;
+  color: white;
+  margin: 10px;
+}
+
+.zomato-select {
+  border: none;
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.zomato-search {
+  width: 200px;
+  background: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 1px solid hsl(0, 6%, 90%);
+}
+
+.zomato-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile-container {
+  border: 2px solid #e9e9e9;
+  width: 500px;
+  height: 1000px;
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-img-container {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -46px;
+  right: 180px;
+}
+
+.user-bg-container {
+  position: relative;
+  height: 40%;
+}
+
+.user-info {
+  margin: 65px 150px;
+}
